@@ -1,0 +1,667 @@
+bidaf
+2020-01-05 19:48:52,967 - QANet - INFO - Training the model for epoch 1
+2020-01-05 19:50:56,623 - QANet - INFO - Average loss from batch 1 to 50 is 15.067744750976562
+2020-01-05 19:52:56,924 - QANet - INFO - Average loss from batch 51 to 100 is 14.43084358215332
+2020-01-05 19:55:07,754 - QANet - INFO - Average loss from batch 101 to 150 is 13.38762176513672
+2020-01-05 19:57:13,441 - QANet - INFO - Average loss from batch 151 to 200 is 12.425578289031982
+2020-01-05 19:59:17,895 - QANet - INFO - Average loss from batch 201 to 250 is 12.29873888015747
+2020-01-05 20:01:20,841 - QANet - INFO - Average loss from batch 251 to 300 is 12.060267353057862
+2020-01-05 20:03:15,704 - QANet - INFO - Average train loss for epoch 1 is 13.073951439400478
+2020-01-05 20:03:15,704 - QANet - INFO - Evaluating the model after epoch 1
+^[OS^[OR^[OR^[OR^[OR^[OR^[OR^[OR^[OQ3{'reflen': 98231, 'correct': [36622, 23305, 18131, 15629], 'testlen': 81339, 'guess': [81339, 79457, 77632, 75930]}
+ratio: 0.8280379920798848
+2020-01-05 20:06:31,057 - QANet - INFO - Dev eval loss 11.686540442496126
+2020-01-05 20:06:31,057 - QANet - INFO - Dev eval result: {'Bleu-3': 0.2547937020904684, 'Bleu-4': 0.22933642620237146, 'Bleu-2': 0.29524896931408706, 'Rouge-L': 0.30965751131139735, 'Bleu-1': 0.36580659686723155}
+2020-01-05 20:06:31,571 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-05 20:06:31,572 - QANet - INFO - Training the model for epoch 2
+2020-01-05 20:08:30,360 - QANet - INFO - Average loss from batch 1 to 50 is 11.60607843399048
+2020-01-05 20:10:37,283 - QANet - INFO - Average loss from batch 51 to 100 is 11.73681360244751
+2020-01-05 20:12:37,278 - QANet - INFO - Average loss from batch 101 to 150 is 11.515781021118164
+2020-01-05 20:14:40,840 - QANet - INFO - Average loss from batch 151 to 200 is 11.441596088409424
+2020-01-05 20:16:46,021 - QANet - INFO - Average loss from batch 201 to 250 is 11.657727870941162
+2020-01-05 20:18:51,038 - QANet - INFO - Average loss from batch 251 to 300 is 11.29627565383911
+2020-01-05 20:20:45,825 - QANet - INFO - Average train loss for epoch 2 is 11.523690207828018
+2020-01-05 20:20:45,825 - QANet - INFO - Evaluating the model after epoch 2
+{'reflen': 109624, 'correct': [56974, 38455, 31343, 27942], 'testlen': 125459, 'guess': [125459, 123577, 121695, 119813]}
+ratio: 1.1444482959935676
+2020-01-05 20:24:07,646 - QANet - INFO - Dev eval loss 11.25763944611666
+2020-01-05 20:24:07,646 - QANet - INFO - Dev eval result: {'Bleu-3': 0.3314000948366614, 'Bleu-4': 0.30353086370377547, 'Bleu-2': 0.37591965091519036, 'Rouge-L': 0.3685735024622423, 'Bleu-1': 0.45412445500123183}
+2020-01-05 20:24:08,144 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-05 20:24:08,144 - QANet - INFO - Training the model for epoch 3
+2020-01-05 20:26:17,329 - QANet - INFO - Average loss from batch 1 to 50 is 11.401673583984374
+2020-01-05 20:28:20,670 - QANet - INFO - Average loss from batch 51 to 100 is 11.400649261474609
+2020-01-05 20:30:17,022 - QANet - INFO - Average loss from batch 101 to 150 is 11.229579811096192
+2020-01-05 20:32:27,395 - QANet - INFO - Average loss from batch 151 to 200 is 11.365378131866455
+2020-01-05 20:34:29,716 - QANet - INFO - Average loss from batch 201 to 250 is 11.294233093261719
+2020-01-05 20:36:29,812 - QANet - INFO - Average loss from batch 251 to 300 is 11.12344129562378
+2020-01-05 20:38:24,896 - QANet - INFO - Average train loss for epoch 3 is 11.286401129544966
+2020-01-05 20:38:24,897 - QANet - INFO - Evaluating the model after epoch 3
+{'reflen': 116075, 'correct': [66172, 45481, 37544, 33621], 'testlen': 152027, 'guess': [152027, 150145, 148263, 146382]}
+ratio: 1.3097307775145266
+2020-01-05 20:41:50,343 - QANet - INFO - Dev eval loss 11.160751417770143
+2020-01-05 20:41:50,343 - QANet - INFO - Dev eval result: {'Bleu-3': 0.32200316566611875, 'Bleu-4': 0.2959210392541353, 'Bleu-2': 0.36310843122610525, 'Rouge-L': 0.3820644920657929, 'Bleu-1': 0.4352647884915151}
+2020-01-05 20:41:50,343 - QANet - INFO - Training the model for epoch 4
+2020-01-05 20:43:55,033 - QANet - INFO - Average loss from batch 1 to 50 is 11.239031581878661
+2020-01-05 20:46:01,749 - QANet - INFO - Average loss from batch 51 to 100 is 11.267099189758301
+2020-01-05 20:48:08,928 - QANet - INFO - Average loss from batch 101 to 150 is 11.040378875732422
+2020-01-05 20:50:14,483 - QANet - INFO - Average loss from batch 151 to 200 is 11.268650531768799
+2020-01-05 20:52:14,957 - QANet - INFO - Average loss from batch 201 to 250 is 10.990026988983153
+2020-01-05 20:54:23,301 - QANet - INFO - Average loss from batch 251 to 300 is 11.339241466522218
+2020-01-05 20:56:21,871 - QANet - INFO - Average train loss for epoch 4 is 11.19013046726827
+2020-01-05 20:56:21,871 - QANet - INFO - Evaluating the model after epoch 4
+{'reflen': 124754, 'correct': [76330, 53199, 44428, 40179], 'testlen': 184892, 'guess': [184892, 183010, 181128, 179247]}
+ratio: 1.4820526796735858
+2020-01-05 20:59:49,902 - QANet - INFO - Dev eval loss 11.101070883423565
+2020-01-05 20:59:49,903 - QANet - INFO - Dev eval result: {'Bleu-3': 0.30876328567269895, 'Bleu-4': 0.28500734159825764, 'Bleu-2': 0.3464199501995642, 'Rouge-L': 0.3812840752265398, 'Bleu-1': 0.412835601324014}
+2020-01-05 20:59:49,903 - QANet - INFO - Training the model for epoch 5
+2020-01-05 21:01:44,668 - QANet - INFO - Average loss from batch 1 to 50 is 11.142534942626954
+2020-01-05 21:03:50,653 - QANet - INFO - Average loss from batch 51 to 100 is 11.115837116241455
+2020-01-05 21:05:58,673 - QANet - INFO - Average loss from batch 101 to 150 is 11.1806058883667
+2020-01-05 21:08:04,474 - QANet - INFO - Average loss from batch 151 to 200 is 11.11442377090454
+2020-01-05 21:10:08,549 - QANet - INFO - Average loss from batch 201 to 250 is 10.879696044921875
+2020-01-05 21:12:13,248 - QANet - INFO - Average loss from batch 251 to 300 is 11.23629165649414
+2020-01-05 21:14:02,804 - QANet - INFO - Average train loss for epoch 5 is 11.087511204379808
+2020-01-05 21:14:02,804 - QANet - INFO - Evaluating the model after epoch 5
+{'reflen': 123245, 'correct': [73986, 51335, 42675, 38449], 'testlen': 176086, 'guess': [176086, 174204, 172322, 170440]}
+ratio: 1.4287476165361561
+2020-01-05 21:17:30,717 - QANet - INFO - Dev eval loss 11.058623024051679
+2020-01-05 21:17:30,717 - QANet - INFO - Dev eval result: {'Bleu-3': 0.3129951843123254, 'Bleu-4': 0.28839094661957254, 'Bleu-2': 0.35187635273651524, 'Rouge-L': 0.38266913370575084, 'Bleu-1': 0.42016968981065833}
+2020-01-05 21:17:30,718 - QANet - INFO - Training the model for epoch 6
+2020-01-05 21:19:33,621 - QANet - INFO - Average loss from batch 1 to 50 is 10.95028745651245
+2020-01-05 21:21:37,494 - QANet - INFO - Average loss from batch 51 to 100 is 11.085267066955566
+2020-01-05 21:23:43,370 - QANet - INFO - Average loss from batch 101 to 150 is 11.02476490020752
+2020-01-05 21:26:02,379 - QANet - INFO - Average loss from batch 151 to 200 is 11.119891185760498
+2020-01-05 21:28:04,285 - QANet - INFO - Average loss from batch 201 to 250 is 11.045129737854005
+2020-01-05 21:29:59,763 - QANet - INFO - Average loss from batch 251 to 300 is 11.005051231384277
+2020-01-05 21:31:53,636 - QANet - INFO - Average train loss for epoch 6 is 11.014702093665898
+2020-01-05 21:31:53,636 - QANet - INFO - Evaluating the model after epoch 6
+{'reflen': 114876, 'correct': [65487, 45238, 37319, 33357], 'testlen': 147512, 'guess': [147512, 145630, 143748, 141866]}
+ratio: 1.2840976357115386
+2020-01-05 21:35:18,189 - QANet - INFO - Dev eval loss 10.984954043478565
+2020-01-05 21:35:18,190 - QANet - INFO - Dev eval result: {'Bleu-3': 0.32958655929681563, 'Bleu-4': 0.3029034952781124, 'Bleu-2': 0.37135574373388636, 'Rouge-L': 0.3901073886343112, 'Bleu-1': 0.4439435435761129}
+2020-01-05 21:35:18,190 - QANet - INFO - Training the model for epoch 7
+2020-01-05 21:37:23,123 - QANet - INFO - Average loss from batch 1 to 50 is 10.909779052734375
+2020-01-05 21:39:29,798 - QANet - INFO - Average loss from batch 51 to 100 is 11.000927906036377
+2020-01-05 21:41:39,443 - QANet - INFO - Average loss from batch 101 to 150 is 11.06317461013794
+2020-01-05 21:43:37,829 - QANet - INFO - Average loss from batch 151 to 200 is 10.788055858612061
+2020-01-05 21:45:43,692 - QANet - INFO - Average loss from batch 201 to 250 is 11.199830684661865
+2020-01-05 21:47:54,299 - QANet - INFO - Average loss from batch 251 to 300 is 10.889546203613282
+2020-01-05 21:49:50,409 - QANet - INFO - Average train loss for epoch 7 is 10.976208479193193
+2020-01-05 21:49:50,409 - QANet - INFO - Evaluating the model after epoch 7
+{'reflen': 112442, 'correct': [61205, 41365, 33678, 29903], 'testlen': 136597, 'guess': [136597, 134715, 132833, 130951]}
+ratio: 1.2148218637163941
+2020-01-05 21:53:13,026 - QANet - INFO - Dev eval loss 10.94157920354991
+2020-01-05 21:53:13,026 - QANet - INFO - Dev eval result: {'Bleu-3': 0.32673904990750885, 'Bleu-4': 0.29874611536297446, 'Bleu-2': 0.3709209873005794, 'Rouge-L': 0.38502268207501766, 'Bleu-1': 0.4480698697628759}
+2020-01-05 21:53:13,026 - QANet - INFO - Training the model for epoch 8
+2020-01-05 21:55:19,242 - QANet - INFO - Average loss from batch 1 to 50 is 10.788597068786622
+2020-01-05 21:57:18,056 - QANet - INFO - Average loss from batch 51 to 100 is 10.773325023651124
+2020-01-05 21:59:13,651 - QANet - INFO - Average loss from batch 101 to 150 is 10.808643302917481
+2020-01-05 22:01:23,133 - QANet - INFO - Average loss from batch 151 to 200 is 11.136257057189942
+2020-01-05 22:03:26,861 - QANet - INFO - Average loss from batch 201 to 250 is 11.021693115234376
+2020-01-05 22:05:31,404 - QANet - INFO - Average loss from batch 251 to 300 is 10.775212020874024
+2020-01-05 22:07:30,776 - QANet - INFO - Average train loss for epoch 8 is 10.909690733111141
+2020-01-05 22:07:30,776 - QANet - INFO - Evaluating the model after epoch 8
+{'reflen': 119093, 'correct': [70150, 48454, 40095, 35951], 'testlen': 161929, 'guess': [161929, 160047, 158165, 156283]}
+ratio: 1.359685287968215
+2020-01-05 22:10:57,741 - QANet - INFO - Dev eval loss 10.923141342673874
+2020-01-05 22:10:57,742 - QANet - INFO - Dev eval result: {'Bleu-3': 0.3215547950649199, 'Bleu-4': 0.29572705038516056, 'Bleu-2': 0.3621534020245434, 'Rouge-L': 0.38938647592554493, 'Bleu-1': 0.43321455699719985}
+2020-01-05 22:10:57,742 - QANet - INFO - Training the model for epoch 9
+2020-01-05 22:13:00,092 - QANet - INFO - Average loss from batch 1 to 50 is 10.845284156799316
+2020-01-05 22:14:57,554 - QANet - INFO - Average loss from batch 51 to 100 is 10.955367374420167
+2020-01-05 22:17:05,721 - QANet - INFO - Average loss from batch 101 to 150 is 10.83272045135498
+2020-01-05 22:19:14,498 - QANet - INFO - Average loss from batch 151 to 200 is 10.938016414642334
+2020-01-05 22:21:20,544 - QANet - INFO - Average loss from batch 201 to 250 is 10.886243896484375
+2020-01-05 22:23:28,100 - QANet - INFO - Average loss from batch 251 to 300 is 10.942094974517822
+2020-01-05 22:25:22,955 - QANet - INFO - Average train loss for epoch 9 is 10.874472020030238
+2020-01-05 22:25:22,955 - QANet - INFO - Evaluating the model after epoch 9
+{'reflen': 120251, 'correct': [70913, 48907, 40508, 36363], 'testlen': 167019, 'guess': [167019, 165137, 163255, 161373]}
+ratio: 1.3889198426624194
+2020-01-05 22:28:50,105 - QANet - INFO - Dev eval loss 10.909560632249628
+2020-01-05 22:28:50,105 - QANet - INFO - Dev eval result: {'Bleu-3': 0.31481371251430335, 'Bleu-4': 0.28956591468323223, 'Bleu-2': 0.35460373554537605, 'Rouge-L': 0.3851030553363768, 'Bleu-1': 0.4245804369562719}
+2020-01-05 22:28:50,105 - QANet - INFO - Training the model for epoch 10
+2020-01-05 22:30:52,968 - QANet - INFO - Average loss from batch 1 to 50 is 10.99812105178833
+2020-01-05 22:33:03,774 - QANet - INFO - Average loss from batch 51 to 100 is 10.80203477859497
+2020-01-05 22:35:08,099 - QANet - INFO - Average loss from batch 101 to 150 is 10.991728572845458
+2020-01-05 22:37:11,618 - QANet - INFO - Average loss from batch 151 to 200 is 10.803358898162841
+2020-01-05 22:39:11,792 - QANet - INFO - Average loss from batch 201 to 250 is 10.61468111038208
+2020-01-05 22:41:23,085 - QANet - INFO - Average loss from batch 251 to 300 is 10.728896408081054
+2020-01-05 22:43:16,550 - QANet - INFO - Average train loss for epoch 10 is 10.834330422192759
+2020-01-05 22:43:16,551 - QANet - INFO - Evaluating the model after epoch 10
+{'reflen': 122836, 'correct': [75201, 52685, 43911, 39578], 'testlen': 176121, 'guess': [176121, 174239, 172357, 170475]}
+ratio: 1.4337897684717718
+2020-01-05 22:46:44,350 - QANet - INFO - Dev eval loss 10.85329338645327
+2020-01-05 22:46:44,350 - QANet - INFO - Dev eval result: {'Bleu-3': 0.3204051560659976, 'Bleu-4': 0.2956125777203243, 'Bleu-2': 0.3593164032710237, 'Rouge-L': 0.39059623612399913, 'Bleu-1': 0.426984857001718}
+2020-01-05 22:46:44,350 - QANet - INFO - ====== Done with model training! ======
+
+lstm
+2020-01-06 08:05:43,318 - QANet - INFO - Initialize the model...
+2020-01-06 08:05:48,007 - QANet - INFO - Time to build graph: 4.686923980712891 s
+2020-01-06 08:05:57,534 - QANet - INFO - There are 1599761 parameters in the model
+2020-01-06 08:05:58,108 - QANet - INFO - Training the model...
+2020-01-06 08:05:58,108 - QANet - INFO - Start
+2020-01-06 08:05:58,108 - QANet - INFO - Training the model for epoch 1
+2020-01-06 08:08:54,178 - QANet - INFO - Average loss from batch 1 to 50 is 14.962207736968994
+2020-01-06 08:11:55,116 - QANet - INFO - Average loss from batch 51 to 100 is 14.234815330505372
+2020-01-06 08:15:03,929 - QANet - INFO - Average loss from batch 101 to 150 is 13.177108917236328
+2020-01-06 08:18:08,162 - QANet - INFO - Average loss from batch 151 to 200 is 12.352317790985108
+2020-01-06 08:21:09,293 - QANet - INFO - Average loss from batch 201 to 250 is 12.134914512634277
+2020-01-06 08:24:11,181 - QANet - INFO - Average loss from batch 251 to 300 is 11.803364276885986
+2020-01-06 08:26:54,148 - QANet - INFO - Average train loss for epoch 1 is 12.917387406692367
+2020-01-06 08:26:54,148 - QANet - INFO - Evaluating the model after epoch 1
+{'reflen': 101555, 'testlen': 97879, 'guess': [97879, 95997, 94121, 92250], 'correct': [43514, 27261, 21082, 18109]}
+ratio: 0.9638028654423616
+2020-01-06 08:31:12,489 - QANet - INFO - Dev eval loss 11.580992006470115
+2020-01-06 08:31:12,489 - QANet - INFO - Dev eval result: {'Rouge-L': 0.35104999784954527, 'Bleu-1': 0.42818245757794376, 'Bleu-2': 0.3422166924107897, 'Bleu-4': 0.26289578953692433, 'Bleu-3': 0.2934307884800975}
+2020-01-06 08:31:13,167 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-06 08:31:13,167 - QANet - INFO - Training the model for epoch 2
+2020-01-06 08:34:16,066 - QANet - INFO - Average loss from batch 1 to 50 is 11.797687530517578
+2020-01-06 08:37:12,764 - QANet - INFO - Average loss from batch 51 to 100 is 11.5082861328125
+2020-01-06 08:40:23,104 - QANet - INFO - Average loss from batch 101 to 150 is 11.26420877456665
+2020-01-06 08:43:21,830 - QANet - INFO - Average loss from batch 151 to 200 is 11.64028347015381
+2020-01-06 08:46:13,207 - QANet - INFO - Average loss from batch 201 to 250 is 11.397831192016602
+2020-01-06 08:49:23,460 - QANet - INFO - Average loss from batch 251 to 300 is 11.296765079498291
+2020-01-06 08:52:13,636 - QANet - INFO - Average train loss for epoch 2 is 11.483059899328415
+2020-01-06 08:52:13,636 - QANet - INFO - Evaluating the model after epoch 2
+{'reflen': 111238, 'testlen': 132160, 'guess': [132160, 130278, 128397, 126517], 'correct': [57665, 37842, 30257, 26574]}
+ratio: 1.1880832089753395
+2020-01-06 08:56:34,326 - QANet - INFO - Dev eval loss 11.332902359025004
+2020-01-06 08:56:34,326 - QANet - INFO - Dev eval result: {'Rouge-L': 0.3731826350522546, 'Bleu-1': 0.4363271791767522, 'Bleu-2': 0.3560062582386926, 'Bleu-4': 0.2814320633557436, 'Bleu-3': 0.31026211683689936}
+2020-01-06 08:56:34,999 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-06 08:56:34,999 - QANet - INFO - Training the model for epoch 3
+2020-01-06 08:59:46,379 - QANet - INFO - Average loss from batch 1 to 50 is 11.25108461380005
+2020-01-06 09:02:42,045 - QANet - INFO - Average loss from batch 51 to 100 is 11.426674137115478
+2020-01-06 09:05:52,175 - QANet - INFO - Average loss from batch 101 to 150 is 11.467100772857666
+2020-01-06 09:08:57,273 - QANet - INFO - Average loss from batch 151 to 200 is 11.501674060821534
+2020-01-06 09:11:50,253 - QANet - INFO - Average loss from batch 201 to 250 is 11.38434907913208
+2020-01-06 09:15:01,179 - QANet - INFO - Average loss from batch 251 to 300 is 11.22623857498169
+2020-01-06 09:17:39,725 - QANet - INFO - Average train loss for epoch 3 is 11.334980012710874
+2020-01-06 09:17:39,726 - QANet - INFO - Evaluating the model after epoch 3
+{'reflen': 116399, 'testlen': 148990, 'guess': [148990, 147108, 145226, 143348], 'correct': [64424, 43511, 35503, 31539]}
+ratio: 1.2799938143798375
+2020-01-06 09:22:02,678 - QANet - INFO - Dev eval loss 11.235415054305074
+2020-01-06 09:22:02,678 - QANet - INFO - Dev eval result: {'Rouge-L': 0.38114664585915825, 'Bleu-1': 0.4324048593865331, 'Bleu-2': 0.3576240109729037, 'Bleu-4': 0.28799342605713313, 'Bleu-3': 0.3150344192407195}
+2020-01-06 09:22:03,368 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-06 09:22:03,368 - QANet - INFO - Training the model for epoch 4
+2020-01-06 09:25:01,694 - QANet - INFO - Average loss from batch 1 to 50 is 11.267340087890625
+2020-01-06 09:28:12,857 - QANet - INFO - Average loss from batch 51 to 100 is 10.938267841339112
+2020-01-06 09:31:18,352 - QANet - INFO - Average loss from batch 101 to 150 is 11.051656436920165
+2020-01-06 09:34:23,904 - QANet - INFO - Average loss from batch 151 to 200 is 11.303247032165528
+2020-01-06 09:37:27,830 - QANet - INFO - Average loss from batch 201 to 250 is 11.271258964538575
+2020-01-06 09:40:25,488 - QANet - INFO - Average loss from batch 251 to 300 is 11.50485424041748
+2020-01-06 09:43:06,460 - QANet - INFO - Average train loss for epoch 4 is 11.194322811630277
+2020-01-06 09:43:06,461 - QANet - INFO - Evaluating the model after epoch 4
+{'reflen': 115659, 'testlen': 146927, 'guess': [146927, 145045, 143163, 141282], 'correct': [64367, 43963, 36010, 32049]}
+ratio: 1.2703464494764671
+2020-01-06 09:47:29,727 - QANet - INFO - Dev eval loss 11.155679877075455
+2020-01-06 09:47:29,727 - QANet - INFO - Dev eval result: {'Rouge-L': 0.385067210132655, 'Bleu-1': 0.43808830235422735, 'Bleu-2': 0.36439558600944433, 'Bleu-4': 0.2950302510099499, 'Bleu-3': 0.3220422473797304}
+2020-01-06 09:47:30,423 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-06 09:47:30,423 - QANet - INFO - Training the model for epoch 5
+2020-01-06 09:50:23,075 - QANet - INFO - Average loss from batch 1 to 50 is 11.009876937866212
+2020-01-06 09:53:24,811 - QANet - INFO - Average loss from batch 51 to 100 is 11.163100509643554
+2020-01-06 09:56:29,876 - QANet - INFO - Average loss from batch 101 to 150 is 11.438914947509765
+2020-01-06 09:59:25,311 - QANet - INFO - Average loss from batch 151 to 200 is 11.220751991271973
+2020-01-06 10:02:19,090 - QANet - INFO - Average loss from batch 201 to 250 is 11.01277639389038
+2020-01-06 10:05:21,887 - QANet - INFO - Average loss from batch 251 to 300 is 11.058995571136474
+2020-01-06 10:08:14,193 - QANet - INFO - Average train loss for epoch 5 is 11.131849170636528
+2020-01-06 10:08:14,193 - QANet - INFO - Evaluating the model after epoch 5
+{'reflen': 106277, 'testlen': 114334, 'guess': [114334, 112452, 110570, 108689], 'correct': [52743, 34919, 27920, 24411]}
+ratio: 1.0758113232402018
+2020-01-06 10:12:33,468 - QANet - INFO - Dev eval loss 11.106979819083948
+2020-01-06 10:12:33,468 - QANet - INFO - Dev eval result: {'Rouge-L': 0.37831774769087945, 'Bleu-1': 0.46130634806793724, 'Bleu-2': 0.3784792047783954, 'Bleu-4': 0.30022062987423276, 'Bleu-3': 0.3307151191575227}
+2020-01-06 10:12:34,156 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-06 10:12:34,156 - QANet - INFO - Training the model for epoch 6
+2020-01-06 10:15:29,273 - QANet - INFO - Average loss from batch 1 to 50 is 10.955753936767579
+2020-01-06 10:18:29,544 - QANet - INFO - Average loss from batch 51 to 100 is 11.155030899047851
+2020-01-06 10:21:33,076 - QANet - INFO - Average loss from batch 101 to 150 is 11.195649185180663
+2020-01-06 10:24:43,458 - QANet - INFO - Average loss from batch 151 to 200 is 11.143099765777588
+2020-01-06 10:27:39,776 - QANet - INFO - Average loss from batch 201 to 250 is 10.864698314666748
+2020-01-06 10:30:47,259 - QANet - INFO - Average loss from batch 251 to 300 is 11.102022514343261
+2020-01-06 10:33:24,352 - QANet - INFO - Average train loss for epoch 6 is 11.05948597630368
+2020-01-06 10:33:24,352 - QANet - INFO - Evaluating the model after epoch 6
+{'reflen': 113347, 'testlen': 139804, 'guess': [139804, 137922, 136040, 134158], 'correct': [61571, 41474, 33618, 29702]}
+ratio: 1.2334159704270846
+2020-01-06 10:37:47,225 - QANet - INFO - Dev eval loss 11.070815883964839
+2020-01-06 10:37:47,225 - QANet - INFO - Dev eval result: {'Rouge-L': 0.38422605567060725, 'Bleu-1': 0.4404094303453375, 'Bleu-2': 0.3639146116802035, 'Bleu-4': 0.29175502094335015, 'Bleu-3': 0.319865999575333}
+2020-01-06 10:37:47,226 - QANet - INFO - Training the model for epoch 7
+2020-01-06 10:40:52,608 - QANet - INFO - Average loss from batch 1 to 50 is 10.946134910583496
+2020-01-06 10:43:51,295 - QANet - INFO - Average loss from batch 51 to 100 is 11.123079967498779
+2020-01-06 10:46:36,235 - QANet - INFO - Average loss from batch 101 to 150 is 10.82447826385498
+2020-01-06 10:49:43,609 - QANet - INFO - Average loss from batch 151 to 200 is 10.998568496704102
+2020-01-06 10:52:49,760 - QANet - INFO - Average loss from batch 201 to 250 is 11.345609855651855
+2020-01-06 10:55:56,224 - QANet - INFO - Average loss from batch 251 to 300 is 10.780732402801513
+2020-01-06 10:58:46,656 - QANet - INFO - Average train loss for epoch 7 is 11.009268952450743
+2020-01-06 10:58:46,657 - QANet - INFO - Evaluating the model after epoch 7
+{'reflen': 109482, 'testlen': 125040, 'guess': [125040, 123158, 121276, 119394], 'correct': [56928, 38492, 31314, 27733]}
+ratio: 1.1421055515975125
+2020-01-06 11:03:07,816 - QANet - INFO - Dev eval loss 11.01441115704657
+2020-01-06 11:03:07,816 - QANet - INFO - Dev eval result: {'Rouge-L': 0.38450733884371996, 'Bleu-1': 0.45527831094049537, 'Bleu-2': 0.3772179976643622, 'Bleu-4': 0.3039419957047995, 'Bleu-3': 0.3324422129429818}
+2020-01-06 11:03:08,509 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-06 11:03:08,509 - QANet - INFO - Training the model for epoch 8
+2020-01-06 11:06:03,683 - QANet - INFO - Average loss from batch 1 to 50 is 10.817499027252197
+2020-01-06 11:09:00,361 - QANet - INFO - Average loss from batch 51 to 100 is 11.157747535705566
+2020-01-06 11:11:58,790 - QANet - INFO - Average loss from batch 101 to 150 is 10.926330223083497
+2020-01-06 11:15:01,572 - QANet - INFO - Average loss from batch 151 to 200 is 10.762688732147216
+2020-01-06 11:17:57,376 - QANet - INFO - Average loss from batch 201 to 250 is 11.142402896881103
+2020-01-06 11:21:01,155 - QANet - INFO - Average loss from batch 251 to 300 is 11.031938591003417
+2020-01-06 11:23:52,755 - QANet - INFO - Average train loss for epoch 8 is 10.960914314159648
+2020-01-06 11:23:52,756 - QANet - INFO - Evaluating the model after epoch 8
+{'reflen': 114592, 'testlen': 145253, 'guess': [145253, 143371, 141489, 139607], 'correct': [63350, 42659, 34628, 30666]}
+ratio: 1.2675666713208489
+2020-01-06 11:28:15,544 - QANet - INFO - Dev eval loss 10.98290436528821
+2020-01-06 11:28:15,545 - QANet - INFO - Dev eval result: {'Rouge-L': 0.381639481089796, 'Bleu-1': 0.43613557034966277, 'Bleu-2': 0.36023460699419846, 'Bleu-4': 0.289005683282714, 'Bleu-3': 0.3166833268950267}
+2020-01-06 11:28:15,545 - QANet - INFO - Training the model for epoch 9
+2020-01-06 11:31:12,287 - QANet - INFO - Average loss from batch 1 to 50 is 10.89394811630249
+2020-01-06 11:34:25,701 - QANet - INFO - Average loss from batch 51 to 100 is 10.966301155090331
+2020-01-06 11:37:20,380 - QANet - INFO - Average loss from batch 101 to 150 is 11.013668212890625
+2020-01-06 11:40:24,471 - QANet - INFO - Average loss from batch 151 to 200 is 10.847650852203369
+2020-01-06 11:43:27,803 - QANet - INFO - Average loss from batch 201 to 250 is 10.837011623382569
+2020-01-06 11:46:30,602 - QANet - INFO - Average loss from batch 251 to 300 is 10.880408458709717
+2020-01-06 11:49:13,922 - QANet - INFO - Average train loss for epoch 9 is 10.918676272525063
+2020-01-06 11:49:13,922 - QANet - INFO - Evaluating the model after epoch 9
+{'reflen': 115531, 'testlen': 149232, 'guess': [149232, 147350, 145468, 143586], 'correct': [65540, 44702, 36572, 32491]}
+ratio: 1.2917052565977851
+2020-01-06 11:53:36,996 - QANet - INFO - Dev eval loss 10.95869560018736
+2020-01-06 11:53:36,996 - QANet - INFO - Dev eval result: {'Rouge-L': 0.385622669391078, 'Bleu-1': 0.43918194489117324, 'Bleu-2': 0.36501494454649513, 'Bleu-4': 0.29506206599190943, 'Bleu-3': 0.3223548273646528}
+2020-01-06 11:53:36,997 - QANet - INFO - Training the model for epoch 10
+2020-01-06 11:56:45,944 - QANet - INFO - Average loss from batch 1 to 50 is 10.956662406921387
+2020-01-06 11:59:49,303 - QANet - INFO - Average loss from batch 51 to 100 is 10.972963752746582
+2020-01-06 12:02:46,749 - QANet - INFO - Average loss from batch 101 to 150 is 10.587615070343018
+2020-01-06 12:05:43,490 - QANet - INFO - Average loss from batch 151 to 200 is 10.923702392578125
+2020-01-06 12:08:52,145 - QANet - INFO - Average loss from batch 201 to 250 is 10.90947696685791
+2020-01-06 12:11:42,625 - QANet - INFO - Average loss from batch 251 to 300 is 10.850904426574708
+2020-01-06 12:14:28,365 - QANet - INFO - Average train loss for epoch 10 is 10.882240001547402
+2020-01-06 12:14:28,365 - QANet - INFO - Evaluating the model after epoch 10
+{'reflen': 106237, 'testlen': 115266, 'guess': [115266, 113384, 111502, 109620], 'correct': [52954, 35174, 28240, 24755]}
+ratio: 1.0849892222107074
+2020-01-06 12:18:47,688 - QANet - INFO - Dev eval loss 10.942748830878392
+2020-01-06 12:18:47,688 - QANet - INFO - Dev eval result: {'Rouge-L': 0.37998582383025037, 'Bleu-1': 0.45940693699789653, 'Bleu-2': 0.37751461280207416, 'Bleu-4': 0.30047315382484674, 'Bleu-3': 0.33048355698434045}
+2020-01-06 12:18:47,689 - QANet - INFO - ====== Done with model training! ======
+
+mymodel
++yuchuli
+2020-01-07 13:41:23,651 - QANet - INFO - Converting text into ids...
+2020-01-07 13:41:31,051 - QANet - INFO - Initialize the model...
+2020-01-07 13:41:35,978 - QANet - INFO - Time to build graph: 4.918409585952759 s
+2020-01-07 13:41:45,467 - QANet - INFO - There are 1599761 parameters in the model
+2020-01-07 13:41:46,103 - QANet - INFO - Training the model...
+2020-01-07 13:41:46,103 - QANet - INFO - Start
+2020-01-07 13:41:46,103 - QANet - INFO - Training the model for epoch 1
+2020-01-07 13:44:56,092 - QANet - INFO - Average loss from batch 1 to 50 is 15.06057451248169
+2020-01-07 13:47:56,072 - QANet - INFO - Average loss from batch 51 to 100 is 14.120360469818115
+2020-01-07 13:50:51,169 - QANet - INFO - Average loss from batch 101 to 150 is 13.204914646148682
+2020-01-07 13:53:57,472 - QANet - INFO - Average loss from batch 151 to 200 is 12.50054054260254
+2020-01-07 13:57:04,073 - QANet - INFO - Average loss from batch 201 to 250 is 12.09740322113037
+2020-01-07 14:00:06,055 - QANet - INFO - Average loss from batch 251 to 300 is 11.929571094512939
+2020-01-07 14:03:05,623 - QANet - INFO - Average train loss for epoch 1 is 13.01059546375792
+2020-01-07 14:03:05,624 - QANet - INFO - Evaluating the model after epoch 1
+{'testlen': 106043, 'reflen': 103521, 'correct': [46426, 29512, 23081, 19975], 'guess': [106043, 104161, 102287, 100425]}
+ratio: 1.024362206702012
+2020-01-07 14:07:31,099 - QANet - INFO - Dev eval loss 11.696049617276815
+2020-01-07 14:07:31,099 - QANet - INFO - Dev eval result: {'Bleu-3': 0.30362368548247215, 'Bleu-4': 0.27315740142231903, 'Rouge-L': 0.3465602504574399, 'Bleu-1': 0.43780353252925286, 'Bleu-2': 0.3521975913123591}
+2020-01-07 14:07:32,228 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-07 14:07:32,229 - QANet - INFO - Training the model for epoch 2
+2020-01-07 14:10:39,195 - QANet - INFO - Average loss from batch 1 to 50 is 11.64522882461548
+2020-01-07 14:13:43,536 - QANet - INFO - Average loss from batch 51 to 100 is 11.527012214660644
+2020-01-07 14:16:38,031 - QANet - INFO - Average loss from batch 101 to 150 is 11.635123500823974
+2020-01-07 14:19:42,206 - QANet - INFO - Average loss from batch 151 to 200 is 11.640254650115967
+2020-01-07 14:22:36,846 - QANet - INFO - Average loss from batch 201 to 250 is 11.52713077545166
+2020-01-07 14:25:47,597 - QANet - INFO - Average loss from batch 251 to 300 is 11.515157585144044
+2020-01-07 14:28:45,694 - QANet - INFO - Average train loss for epoch 2 is 11.52959960571896
+2020-01-07 14:28:45,694 - QANet - INFO - Evaluating the model after epoch 2
+{'testlen': 122051, 'reflen': 108437, 'correct': [55125, 36655, 29426, 25805], 'guess': [122051, 120169, 118294, 116425]}
+ratio: 1.125547552957006
+2020-01-07 14:33:10,422 - QANet - INFO - Dev eval loss 11.309523973657525
+2020-01-07 14:33:10,423 - QANet - INFO - Dev eval result: {'Bleu-3': 0.3248170742215605, 'Bleu-4': 0.29521848133649853, 'Rouge-L': 0.38060758525045424, 'Bleu-1': 0.45165545550630104, 'Bleu-2': 0.3711709842574644}
+2020-01-07 14:33:11,285 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-07 14:33:11,285 - QANet - INFO - Training the model for epoch 3
+2020-01-07 14:36:06,846 - QANet - INFO - Average loss from batch 1 to 50 is 11.298925094604492
+2020-01-07 14:39:13,053 - QANet - INFO - Average loss from batch 51 to 100 is 11.452672653198242
+2020-01-07 14:42:16,807 - QANet - INFO - Average loss from batch 101 to 150 is 11.219209518432617
+2020-01-07 14:45:19,721 - QANet - INFO - Average loss from batch 151 to 200 is 11.412644939422607
+2020-01-07 14:48:25,529 - QANet - INFO - Average loss from batch 201 to 250 is 11.28799337387085
+2020-01-07 14:51:39,187 - QANet - INFO - Average loss from batch 251 to 300 is 11.412210483551025
+2020-01-07 14:54:14,282 - QANet - INFO - Average train loss for epoch 3 is 11.299494396713284
+2020-01-07 14:54:14,283 - QANet - INFO - Evaluating the model after epoch 3
+{'testlen': 130516, 'reflen': 110449, 'correct': [58318, 39499, 32097, 28374], 'guess': [130516, 128634, 126753, 124873]}
+ratio: 1.1816856648769913
+2020-01-07 14:58:40,695 - QANet - INFO - Dev eval loss 11.223773163766081
+2020-01-07 14:58:40,695 - QANet - INFO - Dev eval result: {'Bleu-3': 0.32630605234142557, 'Bleu-4': 0.29807932329227843, 'Rouge-L': 0.3834655872288827, 'Bleu-1': 0.4468264427349869, 'Bleu-2': 0.37041161480518187}
+2020-01-07 14:58:41,372 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-07 14:58:41,372 - QANet - INFO - Training the model for epoch 4
+2020-01-07 15:01:46,529 - QANet - INFO - Average loss from batch 1 to 50 is 11.215424480438232
+2020-01-07 15:04:46,797 - QANet - INFO - Average loss from batch 51 to 100 is 11.315273208618164
+2020-01-07 15:07:44,364 - QANet - INFO - Average loss from batch 101 to 150 is 11.115487232208253
+2020-01-07 15:10:41,189 - QANet - INFO - Average loss from batch 151 to 200 is 11.316684417724609
+2020-01-07 15:13:43,488 - QANet - INFO - Average loss from batch 201 to 250 is 11.27545021057129
+2020-01-07 15:16:58,475 - QANet - INFO - Average loss from batch 251 to 300 is 11.083167629241943
+2020-01-07 15:19:48,288 - QANet - INFO - Average train loss for epoch 4 is 11.193110712268684
+2020-01-07 15:19:48,289 - QANet - INFO - Evaluating the model after epoch 4
+{'testlen': 138327, 'reflen': 113303, 'correct': [60817, 40839, 33137, 29292], 'guess': [138327, 136445, 134564, 132684]}
+ratio: 1.2208591122918084
+2020-01-07 15:24:15,451 - QANet - INFO - Dev eval loss 11.138985172721709
+2020-01-07 15:24:15,452 - QANet - INFO - Dev eval result: {'Bleu-3': 0.318815873309068, 'Bleu-4': 0.29082890591286203, 'Rouge-L': 0.3824961418153027, 'Bleu-1': 0.43966109291750394, 'Bleu-2': 0.3627586310825934}
+2020-01-07 15:24:15,452 - QANet - INFO - Training the model for epoch 5
+2020-01-07 15:27:08,189 - QANet - INFO - Average loss from batch 1 to 50 is 11.40603084564209
+2020-01-07 15:30:16,892 - QANet - INFO - Average loss from batch 51 to 100 is 10.926831741333007
+2020-01-07 15:33:29,682 - QANet - INFO - Average loss from batch 101 to 150 is 11.115209140777587
+2020-01-07 15:36:24,907 - QANet - INFO - Average loss from batch 151 to 200 is 11.201757335662842
+2020-01-07 15:39:23,087 - QANet - INFO - Average loss from batch 201 to 250 is 11.043891620635986
+2020-01-07 15:42:33,486 - QANet - INFO - Average loss from batch 251 to 300 is 11.191126403808594
+2020-01-07 15:45:25,453 - QANet - INFO - Average train loss for epoch 5 is 11.128232115043653
+2020-01-07 15:45:25,453 - QANet - INFO - Evaluating the model after epoch 5
+{'testlen': 155327, 'reflen': 117655, 'correct': [66069, 44831, 36676, 32656], 'guess': [155327, 153445, 151563, 149681]}
+ratio: 1.3201903871488563
+2020-01-07 15:49:53,308 - QANet - INFO - Dev eval loss 11.117624862541174
+2020-01-07 15:49:53,308 - QANet - INFO - Dev eval result: {'Bleu-3': 0.3109723281038807, 'Bleu-4': 0.28460359827402143, 'Rouge-L': 0.37805751140074306, 'Bleu-1': 0.4253542526411994, 'Bleu-2': 0.35252362879795507}
+2020-01-07 15:49:53,308 - QANet - INFO - Training the model for epoch 6
+2020-01-07 15:52:54,282 - QANet - INFO - Average loss from batch 1 to 50 is 10.940736274719239
+2020-01-07 15:55:48,251 - QANet - INFO - Average loss from batch 51 to 100 is 11.076971054077148
+2020-01-07 15:59:01,708 - QANet - INFO - Average loss from batch 101 to 150 is 11.165775299072266
+2020-01-07 16:02:19,280 - QANet - INFO - Average loss from batch 151 to 200 is 11.163252925872802
+2020-01-07 16:05:30,251 - QANet - INFO - Average loss from batch 201 to 250 is 11.137528285980224
+2020-01-07 16:08:33,497 - QANet - INFO - Average loss from batch 251 to 300 is 11.029201259613037
+2020-01-07 16:11:16,675 - QANet - INFO - Average train loss for epoch 6 is 11.071967451913016
+2020-01-07 16:11:16,675 - QANet - INFO - Evaluating the model after epoch 6
+{'testlen': 137830, 'reflen': 113026, 'correct': [60048, 40276, 32558, 28736], 'guess': [137830, 135948, 134066, 132184]}
+ratio: 1.219453930953929
+2020-01-07 16:15:43,564 - QANet - INFO - Dev eval loss 11.05231608999903
+2020-01-07 16:15:43,564 - QANet - INFO - Dev eval result: {'Bleu-3': 0.31529890008126754, 'Bleu-4': 0.28731195551982824, 'Rouge-L': 0.378455629104156, 'Bleu-1': 0.4356671261699163, 'Bleu-2': 0.35926437156392854}
+2020-01-07 16:15:43,564 - QANet - INFO - Training the model for epoch 7
+2020-01-07 16:18:47,707 - QANet - INFO - Average loss from batch 1 to 50 is 10.77286382675171
+2020-01-07 16:21:57,059 - QANet - INFO - Average loss from batch 51 to 100 is 11.05877077102661
+2020-01-07 16:25:01,237 - QANet - INFO - Average loss from batch 101 to 150 is 11.158543605804443
+2020-01-07 16:28:08,265 - QANet - INFO - Average loss from batch 151 to 200 is 11.099675731658936
+2020-01-07 16:31:10,014 - QANet - INFO - Average loss from batch 201 to 250 is 11.09502565383911
+2020-01-07 16:34:12,564 - QANet - INFO - Average loss from batch 251 to 300 is 11.018357944488525
+2020-01-07 16:36:56,651 - QANet - INFO - Average train loss for epoch 7 is 11.010276939985333
+2020-01-07 16:36:56,651 - QANet - INFO - Evaluating the model after epoch 7
+{'testlen': 131485, 'reflen': 111896, 'correct': [59058, 39739, 32207, 28454], 'guess': [131485, 129603, 127722, 125841]}
+ratio: 1.1750643454636343
+2020-01-07 16:41:22,202 - QANet - INFO - Dev eval loss 11.038875982181173
+2020-01-07 16:41:22,203 - QANet - INFO - Dev eval result: {'Bleu-3': 0.32625936687374096, 'Bleu-4': 0.29768197158484894, 'Rouge-L': 0.3864948831803724, 'Bleu-1': 0.44916150131193333, 'Bleu-2': 0.3711096113326721}
+2020-01-07 16:41:22,203 - QANet - INFO - Training the model for epoch 8
+2020-01-07 16:44:28,810 - QANet - INFO - Average loss from batch 1 to 50 is 11.064562149047852
+2020-01-07 16:47:36,592 - QANet - INFO - Average loss from batch 51 to 100 is 11.011925678253174
+2020-01-07 16:50:45,167 - QANet - INFO - Average loss from batch 101 to 150 is 10.930230770111084
+2020-01-07 16:53:50,554 - QANet - INFO - Average loss from batch 151 to 200 is 10.873494720458984
+2020-01-07 16:56:49,177 - QANet - INFO - Average loss from batch 201 to 250 is 10.93824785232544
+2020-01-07 16:59:53,878 - QANet - INFO - Average loss from batch 251 to 300 is 10.874020595550537
+2020-01-07 17:02:53,596 - QANet - INFO - Average train loss for epoch 8 is 10.952534427608331
+2020-01-07 17:02:53,596 - QANet - INFO - Evaluating the model after epoch 8
+{'testlen': 128129, 'reflen': 110308, 'correct': [58356, 40166, 32941, 29274], 'guess': [128129, 126247, 124365, 122483]}
+ratio: 1.1615567320593143
+2020-01-07 17:07:20,046 - QANet - INFO - Dev eval loss 10.98177210962861
+2020-01-07 17:07:20,047 - QANet - INFO - Dev eval result: {'Bleu-3': 0.3373168740156494, 'Bleu-4': 0.3094782365964989, 'Rouge-L': 0.3793610684936509, 'Bleu-1': 0.45544724457382435, 'Bleu-2': 0.38066048626579935}
+2020-01-07 17:07:20,677 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-07 17:07:20,678 - QANet - INFO - Training the model for epoch 9
+2020-01-07 17:10:26,965 - QANet - INFO - Average loss from batch 1 to 50 is 10.877835655212403
+2020-01-07 17:13:37,541 - QANet - INFO - Average loss from batch 51 to 100 is 11.035271034240722
+2020-01-07 17:16:31,643 - QANet - INFO - Average loss from batch 101 to 150 is 10.74634822845459
+2020-01-07 17:19:33,716 - QANet - INFO - Average loss from batch 151 to 200 is 11.119161319732665
+2020-01-07 17:22:40,504 - QANet - INFO - Average loss from batch 201 to 250 is 10.886757335662843
+2020-01-07 17:25:45,462 - QANet - INFO - Average loss from batch 251 to 300 is 10.78541753768921
+2020-01-07 17:28:34,766 - QANet - INFO - Average train loss for epoch 9 is 10.918309206902226
+2020-01-07 17:28:34,766 - QANet - INFO - Evaluating the model after epoch 9
+{'testlen': 139325, 'reflen': 113195, 'correct': [61741, 42062, 34300, 30387], 'guess': [139325, 137443, 135561, 133679]}
+ratio: 1.2308405848314745
+2020-01-07 17:33:02,716 - QANet - INFO - Dev eval loss 10.955555190188726
+2020-01-07 17:33:02,716 - QANet - INFO - Dev eval result: {'Bleu-3': 0.324955395468839, 'Bleu-4': 0.2971830076203699, 'Rouge-L': 0.3859417872913935, 'Bleu-1': 0.44314372869190427, 'Bleu-2': 0.3682611883926723}
+2020-01-07 17:33:02,716 - QANet - INFO - Training the model for epoch 10
+2020-01-07 17:35:59,357 - QANet - INFO - Average loss from batch 1 to 50 is 10.93455389022827
+2020-01-07 17:39:02,847 - QANet - INFO - Average loss from batch 51 to 100 is 10.99657922744751
+2020-01-07 17:42:04,459 - QANet - INFO - Average loss from batch 101 to 150 is 10.951478080749512
+2020-01-07 17:45:08,095 - QANet - INFO - Average loss from batch 151 to 200 is 10.901466579437256
+2020-01-07 17:48:21,814 - QANet - INFO - Average loss from batch 201 to 250 is 10.89039878845215
+2020-01-07 17:51:18,827 - QANet - INFO - Average loss from batch 251 to 300 is 10.71864896774292
+2020-01-07 17:54:10,525 - QANet - INFO - Average train loss for epoch 10 is 10.874765742752048
+2020-01-07 17:54:10,526 - QANet - INFO - Evaluating the model after epoch 10
+{'testlen': 144639, 'reflen': 114718, 'correct': [63104, 42986, 35131, 31202], 'guess': [144639, 142757, 140875, 138993]}
+ratio: 1.260822190066064
+2020-01-07 17:58:38,371 - QANet - INFO - Dev eval loss 10.93879082909806
+2020-01-07 17:58:38,371 - QANet - INFO - Dev eval result: {'Bleu-3': 0.31997734288504315, 'Bleu-4': 0.2928443144765638, 'Rouge-L': 0.384333806796083, 'Bleu-1': 0.4362862021999569, 'Bleu-2': 0.36245204127361336}
+2020-01-07 17:58:38,372 - QANet - INFO - ====== Done with model training! ======
+(QA) ff@ff-desktop:/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master$ python cli.py --train
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:471: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:472: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:473: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:474: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:475: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+2020-01-07 19:49:43,846 - QANet - INFO - Running with args : Namespace(algo='qanet', algo_match='MLSTM', batch_size=16, char_embed_size=32, clip_weight=False, decay=None, dev_files=['./data/corpus/mneydata/search.dev.json'], dropout=0.7, epochs=10, evaluate=False, fix_pretrained_vector=False, gpu='0', head_size=1, hidden_size=64, l2_norm=3e-07, learning_rate=0.0001, log_path=None, loss_type='cross_entropy', max_a_len=200, max_ch_len=20, max_norm_grad=5.0, max_p_len=400, max_p_num=5, max_q_len=60, model_dir='./data/corpus/mneydata/models/', optim='adam', predict=False, prepro=False, pretrained_char_path=None, pretrained_word_path='sgns.financial.bigram-char', result_dir='./data/corpus/mneydata/results/', save_dir='./data/corpus/mneydata/baidu', summary_dir='./data/corpus/mneydata/summary/', test_files=['./data/corpus/mneydata/search.test1.json'], train=True, train_files=['./data/corpus/mneydata/search.train.json'], use_position_attn=False, vocab_dir='./data/corpus/mneydata/vocab/', weight_decay=1e-05, word_embed_size=150)
+2020-01-07 19:49:43,846 - QANet - INFO - ====== training ======
+2020-01-07 19:49:43,846 - QANet - INFO - Load data_set and vocab...
+Traceback (most recent call last):
+  File "cli.py", line 309, in <module>
+    run()
+  File "cli.py", line 302, in run
+    train(args)
+  File "cli.py", line 195, in train
+    args.train_files, args.dev_files)
+  File "/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/dataloader.py", line 40, in __init__
+    self.train_set += self._load_dataset(train_file, train=True)
+  File "/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/dataloader.py", line 126, in _load_dataset
+    question_tokens = word_tokenize(sample['segmented_answer'])
+KeyError: 'segmented_answer'
+(QA) ff@ff-desktop:/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master$ python cli.py --train
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:471: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:472: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:473: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:474: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:475: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+2020-01-07 19:50:42,295 - QANet - INFO - Running with args : Namespace(algo='qanet', algo_match='MLSTM', batch_size=16, char_embed_size=32, clip_weight=False, decay=None, dev_files=['./data/corpus/mneydata/search.dev.json'], dropout=0.7, epochs=10, evaluate=False, fix_pretrained_vector=False, gpu='0', head_size=1, hidden_size=64, l2_norm=3e-07, learning_rate=0.0001, log_path=None, loss_type='cross_entropy', max_a_len=200, max_ch_len=20, max_norm_grad=5.0, max_p_len=400, max_p_num=5, max_q_len=60, model_dir='./data/corpus/mneydata/models/', optim='adam', predict=False, prepro=False, pretrained_char_path=None, pretrained_word_path='sgns.financial.bigram-char', result_dir='./data/corpus/mneydata/results/', save_dir='./data/corpus/mneydata/baidu', summary_dir='./data/corpus/mneydata/summary/', test_files=['./data/corpus/mneydata/search.test1.json'], train=True, train_files=['./data/corpus/mneydata/search.train.json'], use_position_attn=False, vocab_dir='./data/corpus/mneydata/vocab/', weight_decay=1e-05, word_embed_size=150)
+2020-01-07 19:50:42,295 - QANet - INFO - ====== training ======
+2020-01-07 19:50:42,295 - QANet - INFO - Load data_set and vocab...
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/nltk/translate/bleu_score.py:523: UserWarning:
+The hypothesis contains 0 counts of 2-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/nltk/translate/bleu_score.py:523: UserWarning:
+The hypothesis contains 0 counts of 3-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/nltk/translate/bleu_score.py:523: UserWarning:
+The hypothesis contains 0 counts of 4-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+Traceback (most recent call last):
+  File "cli.py", line 309, in <module>
+    run()
+  File "cli.py", line 302, in run
+    train(args)
+  File "cli.py", line 195, in train
+    args.train_files, args.dev_files)
+  File "/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/dataloader.py", line 40, in __init__
+    self.train_set += self._load_dataset(train_file, train=True)
+  File "/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/dataloader.py", line 157, in _load_dataset
+    'passage_chars': [list(token) for token in fake_passage_tokens]}
+  File "/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/dataloader.py", line 157, in <listcomp>
+    'passage_chars': [list(token) for token in fake_passage_tokens]}
+TypeError: 'float' object is not iterable
+(QA) ff@ff-desktop:/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master$ python cli.py --train
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:471: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:472: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:473: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:474: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:475: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+2020-01-07 19:52:57,791 - QANet - INFO - Running with args : Namespace(algo='qanet', algo_match='MLSTM', batch_size=16, char_embed_size=32, clip_weight=False, decay=None, dev_files=['./data/corpus/mneydata/search.dev.json'], dropout=0.7, epochs=10, evaluate=False, fix_pretrained_vector=False, gpu='0', head_size=1, hidden_size=64, l2_norm=3e-07, learning_rate=0.0001, log_path=None, loss_type='cross_entropy', max_a_len=200, max_ch_len=20, max_norm_grad=5.0, max_p_len=400, max_p_num=5, max_q_len=60, model_dir='./data/corpus/mneydata/models/', optim='adam', predict=False, prepro=False, pretrained_char_path=None, pretrained_word_path='sgns.financial.bigram-char', result_dir='./data/corpus/mneydata/results/', save_dir='./data/corpus/mneydata/baidu', summary_dir='./data/corpus/mneydata/summary/', test_files=['./data/corpus/mneydata/search.test1.json'], train=True, train_files=['./data/corpus/mneydata/search.train.json'], use_position_attn=False, vocab_dir='./data/corpus/mneydata/vocab/', weight_decay=1e-05, word_embed_size=150)
+2020-01-07 19:52:57,792 - QANet - INFO - ====== training ======
+2020-01-07 19:52:57,792 - QANet - INFO - Load data_set and vocab...
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/nltk/translate/bleu_score.py:523: UserWarning:
+The hypothesis contains 0 counts of 2-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/nltk/translate/bleu_score.py:523: UserWarning:
+The hypothesis contains 0 counts of 3-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+/media/ff/2e023ada-2be5-48d5-850e-5df5e70d53e1/minmin/QANet_dureader-master/QA/lib/python3.5/site-packages/nltk/translate/bleu_score.py:523: UserWarning:
+The hypothesis contains 0 counts of 4-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+2020-01-07 20:26:59,728 - QANet - INFO - Converting text into ids...
+2020-01-07 20:27:10,120 - QANet - INFO - Initialize the model...
+2020-01-07 20:27:16,327 - QANet - INFO - Time to build graph: 6.204792261123657 s
+2020-01-07 20:27:26,071 - QANet - INFO - There are 1599761 parameters in the model
+2020-01-07 20:27:26,651 - QANet - INFO - Training the model...
+2020-01-07 20:27:26,651 - QANet - INFO - Start
+2020-01-07 20:27:26,651 - QANet - INFO - Training the model for epoch 1
+2020-01-07 20:31:14,236 - QANet - INFO - Average loss from batch 1 to 50 is 15.31962999343872
+2020-01-07 20:34:58,747 - QANet - INFO - Average loss from batch 51 to 100 is 14.015307273864746
+2020-01-07 20:38:44,249 - QANet - INFO - Average loss from batch 101 to 150 is 12.465134811401366
+2020-01-07 20:42:24,464 - QANet - INFO - Average loss from batch 151 to 200 is 11.805330448150634
+2020-01-07 20:46:05,319 - QANet - INFO - Average loss from batch 201 to 250 is 11.608582687377929
+2020-01-07 20:49:46,708 - QANet - INFO - Average loss from batch 251 to 300 is 11.294543113708496
+2020-01-07 20:53:10,013 - QANet - INFO - Average train loss for epoch 1 is 12.508358433535474
+2020-01-07 20:53:10,013 - QANet - INFO - Evaluating the model after epoch 1
+{'guess': [104930, 103048, 101204, 99437], 'correct': [51988, 36659, 30533, 27373], 'testlen': 104930, 'reflen': 105772}
+ratio: 0.9920394811481206
+2020-01-07 20:57:49,777 - QANet - INFO - Dev eval loss 10.95574532102449
+2020-01-07 20:57:49,777 - QANet - INFO - Dev eval result: {'Bleu-1': 0.49149430046497866, 'Bleu-3': 0.37303863203509074, 'Rouge-L': 0.3911979223972696, 'Bleu-2': 0.41647342130175585, 'Bleu-4': 0.34505451587705277}
+2020-01-07 20:57:50,496 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-07 20:57:50,496 - QANet - INFO - Training the model for epoch 2
+2020-01-07 21:01:33,121 - QANet - INFO - Average loss from batch 1 to 50 is 11.0409063911438
+2020-01-07 21:05:21,096 - QANet - INFO - Average loss from batch 51 to 100 is 10.729001178741456
+2020-01-07 21:09:03,286 - QANet - INFO - Average loss from batch 101 to 150 is 10.847890911102295
+2020-01-07 21:12:43,534 - QANet - INFO - Average loss from batch 151 to 200 is 10.800417537689208
+2020-01-07 21:16:29,625 - QANet - INFO - Average loss from batch 201 to 250 is 10.680009441375732
+2020-01-07 21:20:11,270 - QANet - INFO - Average loss from batch 251 to 300 is 10.655917644500732
+2020-01-07 21:23:35,207 - QANet - INFO - Average train loss for epoch 2 is 10.762659344664534
+2020-01-07 21:23:35,207 - QANet - INFO - Evaluating the model after epoch 2
+{'guess': [116528, 114646, 112774, 110909], 'correct': [59776, 42332, 35437, 31885], 'testlen': 116528, 'reflen': 108640}
+ratio: 1.0726067746686205
+2020-01-07 21:28:17,501 - QANet - INFO - Dev eval loss 10.334617792103167
+2020-01-07 21:28:17,501 - QANet - INFO - Dev eval result: {'Bleu-1': 0.5129754222161154, 'Bleu-3': 0.3904374497172922, 'Rouge-L': 0.4228414345295539, 'Bleu-2': 0.43521436256372853, 'Bleu-4': 0.3616750152658479}
+2020-01-07 21:28:18,203 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-07 21:28:18,204 - QANet - INFO - Training the model for epoch 3
+2020-01-07 21:31:58,997 - QANet - INFO - Average loss from batch 1 to 50 is 10.422185249328614
+2020-01-07 21:35:45,177 - QANet - INFO - Average loss from batch 51 to 100 is 10.487040138244629
+2020-01-07 21:39:27,772 - QANet - INFO - Average loss from batch 101 to 150 is 10.431381435394288
+2020-01-07 21:43:08,808 - QANet - INFO - Average loss from batch 151 to 200 is 10.486236267089843
+2020-01-07 21:46:52,631 - QANet - INFO - Average loss from batch 201 to 250 is 10.513386344909668
+2020-01-07 21:50:32,866 - QANet - INFO - Average loss from batch 251 to 300 is 10.54212272644043
+2020-01-07 21:53:54,594 - QANet - INFO - Average train loss for epoch 3 is 10.478310818180685
+2020-01-07 21:53:54,594 - QANet - INFO - Evaluating the model after epoch 3
+{'guess': [132148, 130266, 128391, 126516], 'correct': [66111, 47611, 40248, 36391], 'testlen': 132148, 'reflen': 113724}
+ratio: 1.1620062607716826
+2020-01-07 21:58:37,971 - QANet - INFO - Dev eval loss 10.196332482551794
+2020-01-07 21:58:37,971 - QANet - INFO - Dev eval result: {'Bleu-1': 0.5002799891031231, 'Bleu-3': 0.38556685533834795, 'Rouge-L': 0.43498663733616855, 'Bleu-2': 0.4276068745325581, 'Bleu-4': 0.358333081537584}
+2020-01-07 21:58:37,971 - QANet - INFO - Training the model for epoch 4
+2020-01-07 22:02:18,346 - QANet - INFO - Average loss from batch 1 to 50 is 10.473428421020508
+2020-01-07 22:06:11,148 - QANet - INFO - Average loss from batch 51 to 100 is 10.257266540527343
+2020-01-07 22:09:55,455 - QANet - INFO - Average loss from batch 101 to 150 is 10.455766277313232
+2020-01-07 22:13:33,606 - QANet - INFO - Average loss from batch 151 to 200 is 10.257992496490479
+2020-01-07 22:17:18,419 - QANet - INFO - Average loss from batch 201 to 250 is 10.310967102050782
+2020-01-07 22:20:55,801 - QANet - INFO - Average loss from batch 251 to 300 is 10.337376651763917
+2020-01-07 22:24:19,628 - QANet - INFO - Average train loss for epoch 4 is 10.368793758992476
+2020-01-07 22:24:19,628 - QANet - INFO - Evaluating the model after epoch 4
+{'guess': [114649, 112767, 110889, 109017], 'correct': [59627, 42520, 35698, 32062], 'testlen': 114649, 'reflen': 108461}
+ratio: 1.0570527655101736
+2020-01-07 22:29:00,906 - QANet - INFO - Dev eval loss 10.19707253888867
+2020-01-07 22:29:00,907 - QANet - INFO - Dev eval result: {'Bleu-1': 0.5200830360491542, 'Bleu-3': 0.3981803082814705, 'Rouge-L': 0.43241266418109553, 'Bleu-2': 0.44283502050034107, 'Bleu-4': 0.369133898728738}
+2020-01-07 22:29:01,622 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-07 22:29:01,622 - QANet - INFO - Training the model for epoch 5
+2020-01-07 22:32:51,905 - QANet - INFO - Average loss from batch 1 to 50 is 10.295846405029296
+2020-01-07 22:36:35,279 - QANet - INFO - Average loss from batch 51 to 100 is 10.39707618713379
+2020-01-07 22:40:23,513 - QANet - INFO - Average loss from batch 101 to 150 is 10.357046318054199
+2020-01-07 22:43:59,013 - QANet - INFO - Average loss from batch 151 to 200 is 10.11480523109436
+2020-01-07 22:47:38,974 - QANet - INFO - Average loss from batch 201 to 250 is 10.475851249694824
+2020-01-07 22:51:20,438 - QANet - INFO - Average loss from batch 251 to 300 is 10.100762310028076
+2020-01-07 22:54:49,202 - QANet - INFO - Average train loss for epoch 5 is 10.287922345621892
+2020-01-07 22:54:49,202 - QANet - INFO - Evaluating the model after epoch 5
+{'guess': [122165, 120283, 118404, 116526], 'correct': [61834, 43880, 36718, 32948], 'testlen': 122165, 'reflen': 110389}
+ratio: 1.106677295745037
+2020-01-07 22:59:32,572 - QANet - INFO - Dev eval loss 10.131972196378312
+2020-01-07 22:59:32,572 - QANet - INFO - Dev eval result: {'Bleu-1': 0.506151516391761, 'Bleu-3': 0.3854356231620422, 'Rouge-L': 0.431849280349909, 'Bleu-2': 0.4297060367235299, 'Bleu-4': 0.35671013012410013}
+2020-01-07 22:59:32,572 - QANet - INFO - Training the model for epoch 6
+2020-01-07 23:03:16,422 - QANet - INFO - Average loss from batch 1 to 50 is 10.37150592803955
+2020-01-07 23:07:01,390 - QANet - INFO - Average loss from batch 51 to 100 is 10.219657974243164
+2020-01-07 23:10:42,262 - QANet - INFO - Average loss from batch 101 to 150 is 10.209525337219238
+2020-01-07 23:14:25,755 - QANet - INFO - Average loss from batch 151 to 200 is 9.967296123504639
+2020-01-07 23:18:10,367 - QANet - INFO - Average loss from batch 201 to 250 is 10.066535224914551
+2020-01-07 23:21:56,037 - QANet - INFO - Average loss from batch 251 to 300 is 10.58084041595459
+2020-01-07 23:25:17,666 - QANet - INFO - Average train loss for epoch 6 is 10.223714510829712
+2020-01-07 23:25:17,666 - QANet - INFO - Evaluating the model after epoch 6
+{'guess': [151109, 149227, 147348, 145469], 'correct': [73420, 53544, 45567, 41374], 'testlen': 151109, 'reflen': 118928}
+ratio: 1.2705922911341208
+2020-01-07 23:30:04,280 - QANet - INFO - Dev eval loss 10.08620976337591
+2020-01-07 23:30:04,280 - QANet - INFO - Dev eval result: {'Bleu-1': 0.48587443501048594, 'Bleu-3': 0.3777732606043234, 'Rouge-L': 0.4476210998734126, 'Bleu-2': 0.41753580758723463, 'Bleu-4': 0.35189465893037813}
+2020-01-07 23:30:04,280 - QANet - INFO - Training the model for epoch 7
+2020-01-07 23:33:49,919 - QANet - INFO - Average loss from batch 1 to 50 is 10.26263521194458
+2020-01-07 23:37:32,529 - QANet - INFO - Average loss from batch 51 to 100 is 9.966349353790283
+2020-01-07 23:41:08,658 - QANet - INFO - Average loss from batch 101 to 150 is 9.964764652252198
+2020-01-07 23:44:50,800 - QANet - INFO - Average loss from batch 151 to 200 is 10.160891361236573
+2020-01-07 23:48:37,083 - QANet - INFO - Average loss from batch 201 to 250 is 10.245101852416992
+2020-01-07 23:52:17,192 - QANet - INFO - Average loss from batch 251 to 300 is 10.27112777709961
+2020-01-07 23:55:45,108 - QANet - INFO - Average train loss for epoch 7 is 10.15811129392379
+2020-01-07 23:55:45,108 - QANet - INFO - Evaluating the model after epoch 7
+{'guess': [124241, 122359, 120480, 118601], 'correct': [63783, 45956, 38864, 35120], 'testlen': 124241, 'reflen': 111352}
+ratio: 1.1157500538831713
+2020-01-08 00:00:28,574 - QANet - INFO - Dev eval loss 10.062249045823004
+2020-01-08 00:00:28,575 - QANet - INFO - Dev eval result: {'Bleu-1': 0.5133812509557995, 'Bleu-3': 0.3962107744261069, 'Rouge-L': 0.44038583357407796, 'Bleu-2': 0.4391098233465929, 'Bleu-4': 0.36839289887419846}
+2020-01-08 00:00:28,575 - QANet - INFO - Training the model for epoch 8
+2020-01-08 00:04:16,911 - QANet - INFO - Average loss from batch 1 to 50 is 10.290172214508056
+2020-01-08 00:07:52,110 - QANet - INFO - Average loss from batch 51 to 100 is 10.131200714111328
+2020-01-08 00:11:37,995 - QANet - INFO - Average loss from batch 101 to 150 is 10.135106267929077
+2020-01-08 00:15:19,504 - QANet - INFO - Average loss from batch 151 to 200 is 10.155148754119873
+2020-01-08 00:19:01,613 - QANet - INFO - Average loss from batch 201 to 250 is 9.7634649848938
+2020-01-08 00:22:41,960 - QANet - INFO - Average loss from batch 251 to 300 is 10.041334552764893
+2020-01-08 00:26:08,409 - QANet - INFO - Average train loss for epoch 8 is 10.109088068887942
+2020-01-08 00:26:08,409 - QANet - INFO - Evaluating the model after epoch 8
+{'guess': [123326, 121444, 119565, 117686], 'correct': [63863, 46262, 39166, 35392], 'testlen': 123326, 'reflen': 111190}
+ratio: 1.1091465059807437
+2020-01-08 00:30:51,358 - QANet - INFO - Dev eval loss 10.011685281200187
+2020-01-08 00:30:51,358 - QANet - INFO - Dev eval result: {'Bleu-1': 0.5178388985290975, 'Bleu-3': 0.40128173041224297, 'Rouge-L': 0.44207001026766, 'Bleu-2': 0.44414165412678586, 'Bleu-4': 0.37336372132364337}
+2020-01-08 00:30:52,019 - QANet - INFO - Model saved in ./data/corpus/mneydata/models/, with prefix qanet.
+2020-01-08 00:30:52,019 - QANet - INFO - Training the model for epoch 9
+2020-01-08 00:34:40,768 - QANet - INFO - Average loss from batch 1 to 50 is 10.154456253051757
+2020-01-08 00:38:27,428 - QANet - INFO - Average loss from batch 51 to 100 is 10.040144777297973
+2020-01-08 00:42:06,701 - QANet - INFO - Average loss from batch 101 to 150 is 9.96405421257019
+2020-01-08 00:45:36,519 - QANet - INFO - Average loss from batch 151 to 200 is 10.05330228805542
+2020-01-08 00:49:24,208 - QANet - INFO - Average loss from batch 201 to 250 is 10.040932884216309
+2020-01-08 00:53:09,129 - QANet - INFO - Average loss from batch 251 to 300 is 10.097774209976196
+2020-01-08 00:56:27,477 - QANet - INFO - Average train loss for epoch 9 is 10.039277288150615
+2020-01-08 00:56:27,477 - QANet - INFO - Evaluating the model after epoch 9
+{'guess': [117095, 115213, 113334, 111455], 'correct': [61013, 43214, 36122, 32374], 'testlen': 117095, 'reflen': 109148}
+ratio: 1.0728093964158658
+2020-01-08 01:01:10,390 - QANet - INFO - Dev eval loss 9.970859451577716
+2020-01-08 01:01:10,390 - QANet - INFO - Dev eval result: {'Bleu-1': 0.5210555531833082, 'Bleu-3': 0.3964053684930124, 'Rouge-L': 0.4363496288487782, 'Bleu-2': 0.4420826852900828, 'Bleu-4': 0.3667573677938701}
+2020-01-08 01:01:10,390 - QANet - INFO - Training the model for epoch 10
+2020-01-08 01:04:53,162 - QANet - INFO - Average loss from batch 1 to 50 is 9.934656715393066
+2020-01-08 01:08:37,473 - QANet - INFO - Average loss from batch 51 to 100 is 9.947205743789674
+2020-01-08 01:12:23,908 - QANet - INFO - Average loss from batch 101 to 150 is 10.217607307434083
+2020-01-08 01:16:05,552 - QANet - INFO - Average loss from batch 151 to 200 is 10.190238332748413
+2020-01-08 01:19:42,636 - QANet - INFO - Average loss from batch 201 to 250 is 9.84790885925293
+2020-01-08 01:23:24,058 - QANet - INFO - Average loss from batch 251 to 300 is 9.921883544921876
+2020-01-08 01:26:45,211 - QANet - INFO - Average train loss for epoch 10 is 9.985926143170266
+2020-01-08 01:26:45,211 - QANet - INFO - Evaluating the model after epoch 10
+{'guess': [125089, 123207, 121327, 119447], 'correct': [64454, 46316, 39041, 35171], 'testlen': 125089, 'reflen': 111630}
+ratio: 1.1205679476843042
+2020-01-08 01:31:29,176 - QANet - INFO - Dev eval loss 9.92787251690369
+2020-01-08 01:31:29,176 - QANet - INFO - Dev eval result: {'Bleu-1': 0.5152651312265626, 'Bleu-3': 0.39648792320303317, 'Rouge-L': 0.44294719596187015, 'Bleu-2': 0.44011199806786727, 'Bleu-4': 0.3680652700067567}
+2020-01-08 01:31:29,176 - QANet - INFO - ====== Done with model training! ======
